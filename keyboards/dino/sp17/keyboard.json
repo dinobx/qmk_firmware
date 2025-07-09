@@ -1,8 +1,8 @@
 {
     "manufacturer": "Dino",
-    "keyboard_name": "elchibre",
-    "maintainer": "Dino",
-    "bootloader": "rp2040",
+    "keyboard_name": "SP17 Macropad",
+    "maintainer": "dinobx",
+    "url": "https://kbbd.notion.site/Jurassic-Keyboards-1705a54918cf8037a4b6f6310366e545",
     "features": {
         "bootmagic": true,
         "command": false,
@@ -11,17 +11,17 @@
         "mousekey": true,
         "nkro": true
     },
-    "matrix_pins": {
-        "direct": [
-            ["GP0", "GP1", "GP29", "GP28", "GP26", "GP9", "GP4", "GP20", "GP8", "GP3", "GP27", "GP21", "GP23", "GP7", "GP6", "GP5"]
-        ]
-    },
     "processor": "RP2040",
-    "url": "",
+    "bootloader": "rp2040",
     "usb": {
         "device_version": "1.0.0",
         "pid": "0x0000",
         "vid": "0xFEED"
+    },
+    "matrix_pins": {
+        "direct": [
+            ["GP0", "GP1", "GP29", "GP28", "GP26", "GP9", "GP4", "GP20", "GP8", "GP3", "GP27", "GP21", "GP23", "GP7", "GP6", "GP5"]
+        ]
     },
     "layouts": {
         "LAYOUT": {

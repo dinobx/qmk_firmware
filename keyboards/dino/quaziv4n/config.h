@@ -20,6 +20,6 @@
 
 #define NUM_ENCODERS 1
 #define NUM_DIRECTIONS 2
-#define ENCODERS_PAD_A  { GP0 }
-#define ENCODERS_PAD_B  { GP10 }
+#define ENCODER_A_PINS  { GP0 }
+#define ENCODER_B_PINS  { GP10 }
 #define ENCODER_RESOLUTION 2

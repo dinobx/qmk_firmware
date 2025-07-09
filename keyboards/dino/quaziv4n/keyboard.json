@@ -1,27 +1,26 @@
 {
     "manufacturer": "Dino",
     "keyboard_name": "quaziv4n",
-    "maintainer": "chochigum",
-    "bootloader": "rp2040",
-    "diode_direction": "COL2ROW",
+    "maintainer": "dinobx",
+    "url": "https://kbbd.notion.site/Jurassic-Keyboards-1705a54918cf8037a4b6f6310366e545",
     "features": {
-        "bootmagic": true,
         "command": false,
         "console": false,
         "extrakey": true,
         "mousekey": true,
         "nkro": true
     },
-    "matrix_pins": {
-        "cols": ["GP26", "GP8", "GP12", "GP11", "GP6", "GP5", "GP4", "GP3", "GP2", "GP1"],
-        "rows": ["GP28", "GP27", "GP29", "GP14", "GP13"]
-    },
-"processor": "RP2040",
-    "url": "",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
     "usb": {
         "device_version": "1.0.0",
         "pid": "0x0000",
         "vid": "0xFEED"
+    },
+    "diode_direction": "COL2ROW",
+    "matrix_pins": {
+        "cols": ["GP26", "GP8", "GP12", "GP11", "GP6", "GP5", "GP4", "GP3", "GP2", "GP1"],
+        "rows": ["GP28", "GP27", "GP29", "GP14", "GP13"]
     },
     "layouts": {
         "LAYOUT": {

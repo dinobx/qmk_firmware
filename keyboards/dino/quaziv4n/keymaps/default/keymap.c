@@ -1,3 +1,6 @@
+// Copyright 2023 QMK
+// SPDX-License-Identifier: GPL-2.0-or-later
+
 #include QMK_KEYBOARD_H
 
 const uint16_t PROGMEM combo_esc1[] = {KC_TAB, KC_W, COMBO_END};
@@ -78,7 +81,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TRNS, KC_VOLD, KC_VOLU, KC_MUTE, KC_NUM,  KC_INS,  KC_HOME,    KC_UP,   KC_END,      KC_TRNS,
         KC_TRNS, KC_MPRV, KC_MNXT, KC_MPLY, KC_TRNS, KC_PGUP, KC_LEFT,    KC_DOWN, KC_RIGHT,    KC_TRNS,
         KC_LSFT, KC_F13,  KC_F14,  KC_F15,  KC_TRNS, KC_PGDN, C(KC_LEFT), KC_TRNS, C(KC_RIGHT), KC_TRNS,
-        KC_TRNS,          KC_TRNS, KC_TRNS, KC_TRNS, KC_ENT,              KC_TRNS, KC_TRNS,     KC_TRNS
+        KC_TRNS,          KC_TRNS, KC_TRNS, KC_DEL,  KC_ENT,              KC_TRNS, KC_TRNS,     KC_TRNS
     )
 };
 

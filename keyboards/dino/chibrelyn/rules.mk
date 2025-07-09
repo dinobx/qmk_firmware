@@ -1,6 +1,6 @@
-VIA_Enable = yes
-VIAL_Enable = yes
+BOOTMAGIC_ENABLE = yes
 
 COMBO_ENABLE = yes
+CAPS_WORD_ENABLE = yes
 
 UNICODEMAP_ENABLE = yes
